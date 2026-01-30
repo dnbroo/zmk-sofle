@@ -333,4 +333,4 @@ combos:
 - p: [17, 16]
   k: Gui+Sft+X
 - p: [28, 29]
-  k: Sft+S
+  k: Sft+Gui+S
