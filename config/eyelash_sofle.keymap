@@ -52,7 +52,7 @@
 
         screenshot_mac {
             bindings = <&kp LG(LS(X))>;
-            key-positions = <17 16>;
+            key-positions = <29 30>;
         };
 
         screenshot_windows {
