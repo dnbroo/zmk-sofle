@@ -56,7 +56,7 @@
         };
 
         screenshot_windows {
-            bindings = <&kp LS(S)>;
+            bindings = <&kp LS(LG(S))>;
             key-positions = <28 29>;
         };
     };
