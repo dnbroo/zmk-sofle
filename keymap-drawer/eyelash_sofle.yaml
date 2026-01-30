@@ -330,7 +330,7 @@ combos:
   k: '&soft_off'
 - p: [61, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [29, 30]
+- p: [43, 42]
   k: Gui+Sft+X
-- p: [28, 29]
+- p: [42, 41]
   k: Sft+Gui+S
