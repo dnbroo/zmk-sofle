@@ -47,7 +47,8 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <61 37 38>;
+            key-positions = <36 35>;
+            timeout-ms = <25>;
         };
 
         screenshot_mac {
