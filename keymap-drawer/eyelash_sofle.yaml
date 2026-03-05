@@ -219,7 +219,7 @@ layers:
   - (
   - )
   - +
-  - {t: '-', s: _}
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -231,7 +231,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
-  - '*'
+  - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -328,7 +328,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [61, 38, 37]
+- p: [61, 37, 38]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [43, 42, 44]
   k: Gui+Sft+X
