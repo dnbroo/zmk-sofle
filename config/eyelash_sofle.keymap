@@ -47,7 +47,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <61 38 37>;
+            key-positions = <61 37 38>;
         };
 
         screenshot_mac {
@@ -122,11 +122,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS  &kp MINUS  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp STAR  &kp EQUAL  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans     &trans  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans    &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS   &kp UNDER  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS  &kp EQUAL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTRK  &trans     &trans  &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans     &trans     &trans
             >;
 
             display-name = "layer3";
