@@ -47,17 +47,17 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <61 38>;
+            key-positions = <61 38 37>;
         };
 
         screenshot_mac {
             bindings = <&kp LG(LS(X))>;
-            key-positions = <43 42>;
+            key-positions = <43 42 44>;
         };
 
         screenshot_windows {
             bindings = <&kp LS(LG(S))>;
-            key-positions = <42 41>;
+            key-positions = <42 41 43>;
         };
     };
 
@@ -96,11 +96,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1   &kp F2   &kp F3  &kp F4    &kp F5        &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp F6   &kp F7   &kp F8  &kp F9    &kp F10       &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp F11  &kp F12  &trans  &kp HOME  &trans        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans   &trans   &trans  &kp END   &kp LA(F4)    &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans   &trans   &trans  &trans    &trans        &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp GRAVE   &kp F1   &kp F2   &kp F3     &kp F4    &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8      &kp F9     &kp F10           &trans
+&trans      &kp F6   &kp F7   &kp F8     &kp F9    &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp F11  &kp F12  &kp PG_UP  &kp HOME  &trans        &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans   &trans   &kp PG_DN  &kp END   &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &kp INSERT  &trans     &trans            &trans
+&kp C_MUTE  &trans   &trans   &trans     &trans    &trans        &mkp LCLK        &trans  &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer1";
@@ -109,10 +109,10 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans            &kp DELETE
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp END         &kp UP_ARROW    &kp HOME         &kp MINUS         &kp EQUAL
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans          &trans           &trans            &kp ENTER
+&kp TILDE  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &kp DELETE
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp END         &kp UP_ARROW    &kp HOME         &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans          &trans           &trans  &kp ENTER
 &trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
 
@@ -122,11 +122,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans          &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS  &kp MINUS  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp STAR  &kp EQUAL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans     &trans  &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans    &trans     &trans
             >;
 
             display-name = "layer3";
