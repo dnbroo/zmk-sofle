@@ -140,7 +140,7 @@
 &trans  &trans        &trans            &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans            &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans            &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_GUI  &kp LEFT_CONTROL  &trans  &trans  &mo 1     &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer4";
