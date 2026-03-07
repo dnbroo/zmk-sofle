@@ -101,7 +101,7 @@
 &trans      &kp F6   &kp F7   &kp F8     &kp F9    &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP      &kp HOME   &trans   &trans
 &trans      &kp F11  &kp F12  &kp PG_UP  &kp HOME  &trans        &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN    &kp RIGHT  &trans   &trans
 &trans      &trans   &trans   &kp PG_DN  &kp END   &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &kp INSERT  &trans     &trans   &trans
-&kp C_MUTE  &to 4    &to 0    &trans     &trans    &trans        &mkp LCLK        &trans  &trans    &trans      &trans     &trans
+&kp C_MUTE  &tog 4   &trans   &trans     &trans    &trans        &mkp LCLK        &trans  &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer1";
