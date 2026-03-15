@@ -65,7 +65,7 @@
         alt_enter {
             bindings = <&kp ENTER>;
             key-positions = <28 29>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
     };
 
