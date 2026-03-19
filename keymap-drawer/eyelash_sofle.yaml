@@ -331,8 +331,12 @@ combos:
 - p: [36, 35]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [43, 42, 44]
-  k: Gui+Sft+X
+  k: Sft+Alt+X
 - p: [42, 41, 43]
   k: Sft+Gui+S
 - p: [29, 30]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [42, 43]
+  k: $$mdi:keyboard-tab$$
+- p: [41, 42]
+  k: $$mdi:keyboard-tab-reverse$$
