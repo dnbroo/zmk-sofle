@@ -328,15 +328,15 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [36, 35]
+- p: [35, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [43, 42, 44]
   k: Sft+Alt+X
 - p: [42, 41, 43]
   k: Sft+Gui+S
-- p: [29, 30]
+- p: [28, 29]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [42, 43]
+- p: [15, 16]
   k: $$mdi:keyboard-tab$$
 - p: [41, 42]
   k: $$mdi:keyboard-tab-reverse$$
