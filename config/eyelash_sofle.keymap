@@ -48,8 +48,9 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <36 35>;
+            key-positions = <35 36>;
             timeout-ms = <30>;
+            require-prior-idle-ms = <40>;
         };
 
         screenshot_mac {
@@ -64,20 +65,23 @@
 
         alt_enter {
             bindings = <&kp ENTER>;
-            key-positions = <29 30>;
-            timeout-ms = <35>;
+            key-positions = <28 29>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <40>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <42 43>;
-            timeout-ms = <35>;
+            key-positions = <15 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <40>;
         };
 
         tab_back {
             bindings = <&kp LS(TAB)>;
             key-positions = <41 42>;
-            timeout-ms = <35>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <40>;
         };
     };
 
