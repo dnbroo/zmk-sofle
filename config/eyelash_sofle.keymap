@@ -72,14 +72,14 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <15 16>;
+            key-positions = <41 42>;
             timeout-ms = <30>;
             require-prior-idle-ms = <40>;
         };
 
         tab_back {
             bindings = <&kp LS(TAB)>;
-            key-positions = <41 42>;
+            key-positions = <15 16>;
             timeout-ms = <30>;
             require-prior-idle-ms = <40>;
         };
