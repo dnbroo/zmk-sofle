@@ -49,11 +49,11 @@
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <36 35>;
-            timeout-ms = <25>;
+            timeout-ms = <30>;
         };
 
         screenshot_mac {
-            bindings = <&kp LG(LS(X))>;
+            bindings = <&kp LS(LA(X))>;
             key-positions = <43 42 44>;
         };
 
@@ -65,7 +65,19 @@
         alt_enter {
             bindings = <&kp ENTER>;
             key-positions = <29 30>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <42 43>;
+            timeout-ms = <35>;
+        };
+
+        tab_back {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <41 42>;
+            timeout-ms = <35>;
         };
     };
 
