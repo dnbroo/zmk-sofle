@@ -331,7 +331,7 @@ combos:
 - p: [35, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [43, 42, 44]
-  k: Sft+Alt+X
+  k: Sft+Ctl+X
 - p: [42, 41, 43]
   k: Sft+Gui+S
 - p: [28, 29]
