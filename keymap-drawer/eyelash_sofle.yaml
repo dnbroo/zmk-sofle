@@ -334,7 +334,7 @@ combos:
   k: Sft+Ctl+X
 - p: [42, 41, 43]
   k: Sft+Gui+S
-- p: [28, 55]
+- p: [30, 56]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [41, 42]
   k: $$mdi:keyboard-tab$$
@@ -342,3 +342,5 @@ combos:
   k: $$mdi:keyboard-tab-reverse$$
 - p: [12, 11]
   k: $$mdi:backspace-reverse-outline$$
+- p: [56, 31]
+  k: {t: '$$mdi:backspace$$', type: backspace}
