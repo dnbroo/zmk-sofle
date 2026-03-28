@@ -67,8 +67,8 @@
 
         alt_enter {
             bindings = <&kp ENTER>;
-            key-positions = <28 55>;
-            timeout-ms = <20>;
+            key-positions = <30 56>;
+            timeout-ms = <30>;
             require-prior-idle-ms = <100>;
         };
 
@@ -90,6 +90,11 @@
             bindings = <&kp DELETE>;
             key-positions = <12 11>;
             timeout-ms = <35>;
+        };
+
+        L_Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <56 31>;
         };
     };
 
