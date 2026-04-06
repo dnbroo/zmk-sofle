@@ -50,39 +50,27 @@
             bindings = <&kp ENTER>;
             key-positions = <36 61>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <60>;
+            require-prior-idle-ms = <75>;
         };
 
         screenshot_mac {
             bindings = <&kp LS(LC(X))>;
             key-positions = <43 42 44>;
             timeout-ms = <25>;
+            require-prior-idle-ms = <100>;
         };
 
         screenshot_windows {
             bindings = <&kp LS(LG(S))>;
             key-positions = <42 41 43>;
             timeout-ms = <25>;
+            require-prior-idle-ms = <100>;
         };
 
         alt_enter {
             bindings = <&kp ENTER>;
             key-positions = <30 56>;
             timeout-ms = <30>;
-            require-prior-idle-ms = <100>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <41 42>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <100>;
-        };
-
-        tab_back {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <15 16>;
-            timeout-ms = <25>;
             require-prior-idle-ms = <100>;
         };
 
@@ -112,6 +100,19 @@
                 <&kp LEFT_SHIFT &mkp MB3>;
 
             label = "SHIFT_MCLK";
+        };
+
+        right_arrow: right_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp RIGHT_ARROW>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp MINUS &kp GT>;
+
+            label = "RIGHT_ARROW";
         };
     };
 
@@ -146,11 +147,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans  &trans  &trans  &trans              &trans    &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &kp DELETE
-&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_DOWN   &trans  &kp END         &kp UP_ARROW    &kp HOME         &trans  &trans
-&trans     &trans  &trans  &trans  &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans          &trans           &trans  &kp ENTER
-&trans     &trans  &trans  &trans  &trans              &trans    &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+&kp TILDE  &trans  &trans       &trans  &trans              &trans    &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &kp DELETE
+&trans     &trans  &kp LS(TAB)  &trans  &trans              &trans    &mmv MOVE_DOWN   &trans  &kp END         &kp UP_ARROW    &kp HOME         &trans  &trans
+&trans     &trans  &kp TAB      &trans  &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans     &trans  &trans       &trans  &trans              &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans          &trans           &trans  &kp ENTER
+&trans     &trans  &trans       &trans  &trans              &trans    &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
 
             display-name = "layer2";
