@@ -244,8 +244,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&MACRO_LEFT_ARROW'
+  - '&MACRO_RIGHT_ARROW'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
