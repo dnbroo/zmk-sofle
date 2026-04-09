@@ -49,8 +49,8 @@
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <36 61>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <75>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <95>;
         };
 
         screenshot_mac {
