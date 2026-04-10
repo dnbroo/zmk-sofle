@@ -135,11 +135,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1   &kp F2   &kp F3     &kp F4    &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8      &kp F9     &kp F10  &trans
-&trans      &kp F6   &kp F7   &kp F8     &kp F9    &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP      &kp HOME   &trans   &trans
-&trans      &kp F11  &kp F12  &kp PG_UP  &kp HOME  &trans        &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN    &kp RIGHT  &trans   &trans
-&trans      &trans   &trans   &kp PG_DN  &kp END   &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &kp INSERT  &trans     &trans   &trans
-&kp C_MUTE  &tog 4   &trans   &trans     &trans    &trans        &mkp LCLK        &trans  &trans    &trans      &trans     &trans
+&kp GRAVE    &kp F1   &kp F2     &kp F3      &kp F4         &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &trans
+&kp LS(TAB)  &kp F6   &kp F7     &kp F8      &kp F9         &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP    &kp HOME   &trans   &trans
+&kp LC(TAB)  &kp F11  &kp F12    &trans      &trans         &trans        &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans       &trans   &kp ENTER  &kp DELETE  &kp BACKSPACE  &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans   &trans
+&kp C_MUTE   &trans   &trans     &trans      &trans         &trans        &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "layer1";
@@ -148,11 +148,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans  &trans       &trans  &trans              &trans    &mmv MOVE_UP     &trans  &trans          &trans          &trans           &trans  &kp DELETE
-&trans     &trans  &kp LS(TAB)  &trans  &trans              &trans    &mmv MOVE_DOWN   &trans  &kp END         &kp UP_ARROW    &kp HOME         &trans  &trans
-&trans     &trans  &kp TAB      &trans  &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans     &trans  &trans       &trans  &trans              &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans          &trans           &trans  &kp ENTER
-&trans     &trans  &trans       &trans  &trans              &trans    &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+&kp TILDE  &trans  &trans  &trans  &trans              &trans    &mmv MOVE_UP     &trans    &trans              &trans          &trans               &trans  &kp DELETE
+&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_DOWN   &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &trans  &trans
+&trans     &trans  &trans  &trans  &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &kp END   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans
+&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_RIGHT  &trans    &trans              &trans          &trans               &trans  &kp ENTER
+&trans     &trans  &trans  &trans  &trans              &trans    &mkp LCLK        &trans    &trans              &trans          &trans               &trans
             >;
 
             display-name = "layer2";
