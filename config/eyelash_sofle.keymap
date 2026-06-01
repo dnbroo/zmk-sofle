@@ -46,13 +46,6 @@
             key-positions = <14 28 40>;
         };
 
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <36 61>;
-            timeout-ms = <25>;
-            require-prior-idle-ms = <95>;
-        };
-
         screenshot_mac {
             bindings = <&kp LS(LC(X))>;
             key-positions = <43 42 44>;
@@ -135,11 +128,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE    &kp F1   &kp F2     &kp F3      &kp F4         &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &trans
-&kp LS(TAB)  &kp F6   &kp F7     &kp F8      &kp F9         &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP    &kp HOME   &trans   &trans
-&kp LC(TAB)  &kp F11  &kp F12    &trans      &trans         &trans        &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-&trans       &trans   &kp ENTER  &kp DELETE  &kp BACKSPACE  &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans   &trans
-&kp C_MUTE   &trans   &trans     &trans      &trans         &trans        &mkp LCLK        &trans  &trans    &trans    &trans     &trans
+&kp GRAVE    &kp F1   &kp F2          &kp F3            &kp F4         &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &trans
+&kp LS(TAB)  &kp F6   &kp F7          &kp F8            &kp F9         &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP    &kp HOME   &trans   &trans
+&kp LC(TAB)  &kp F11  &kp F12         &kp ENTER         &kp BACKSPACE  &kp DELETE    &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
+&trans       &trans   &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT     &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans   &trans
+&kp C_MUTE   &trans   &trans          &trans            &trans         &trans        &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
             display-name = "layer1";
@@ -148,11 +141,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans  &trans  &trans  &trans              &trans    &mmv MOVE_UP     &trans    &trans              &trans          &trans               &trans  &kp DELETE
-&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_DOWN   &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &trans  &trans
-&trans     &trans  &trans  &trans  &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &kp END   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans
-&trans     &trans  &trans  &trans  &trans              &trans    &mmv MOVE_RIGHT  &trans    &trans              &trans          &trans               &trans  &kp ENTER
-&trans     &trans  &trans  &trans  &trans              &trans    &mkp LCLK        &trans    &trans              &trans          &trans               &trans
+&kp TILDE  &trans  &trans  &trans       &trans              &trans    &mmv MOVE_UP     &trans    &trans              &trans          &trans               &trans  &kp DELETE
+&trans     &trans  &trans  &kp LS(TAB)  &trans              &trans    &mmv MOVE_DOWN   &kp HOME  &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT_ARROW)  &trans  &trans
+&trans     &trans  &trans  &kp TAB      &kp LG(LEFT_SHIFT)  &trans    &mmv MOVE_LEFT   &kp END   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans  &trans
+&trans     &trans  &trans  &trans       &trans              &trans    &mmv MOVE_RIGHT  &trans    &trans              &trans          &trans               &trans  &kp ENTER
+&trans     &trans  &trans  &trans       &trans              &trans    &mkp LCLK        &trans    &trans              &trans          &trans               &trans
             >;
 
             display-name = "layer2";
@@ -161,7 +154,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans             &trans              &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                &trans                 &trans             &trans              &trans  &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS           &kp UNDER           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS          &kp EQUAL           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &MACRO_LEFT_ARROW  &MACRO_RIGHT_ARROW  &trans  &kp ENTER
