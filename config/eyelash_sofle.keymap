@@ -77,6 +77,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <56 31>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -131,7 +136,7 @@
 &kp GRAVE    &kp F1   &kp F2          &kp F3            &kp F4         &kp F5        &mmv MOVE_UP     &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &trans
 &kp LS(TAB)  &kp F6   &kp F7          &kp F8            &kp F9         &kp F10       &mmv MOVE_DOWN   &trans  &kp END   &kp UP    &kp HOME   &trans   &trans
 &kp LC(TAB)  &kp F11  &kp F12         &kp ENTER         &kp BACKSPACE  &kp DELETE    &mmv MOVE_LEFT   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &trans
-&trans       &trans   &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT     &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans   &trans
+&trans       &trans   &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT     &kp LA(F4)    &mmv MOVE_RIGHT  &trans  &trans    &trans    &trans     &trans   &trans
 &kp C_MUTE   &trans   &trans          &trans            &trans         &trans        &mkp LCLK        &trans  &trans    &trans    &trans     &trans
             >;
 
